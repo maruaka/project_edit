@@ -1,0 +1,95 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+}
+
+/* ここからヘッダーの記述 */
+header {
+    width: 100%;
+    padding: 30px 4% 10px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   display: flex;
+   align-items: center;
+}
+/* ここまでヘッダーの記述 */
+
+/* ここからフッターの記述 */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  /* フッタの高さと等しいネガティブマージン */
+  /* また最後の子要素の潜在的なマージンとしても機能 */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+  background-color:#2c061f;
+  color: #fff;
+}
+/* ここまでフッターの記述 */
+
+h1 {
+   margin: 0; padding: 0;
+   font-size: 20px;
+}
+
+a {	
+   text-decoration: none;
+   color: #4b4b4b;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+nav {
+   margin: 0 0 0 auto;
+}
+
+/* テーブル プロジェクト記事ここから */
+table {
+	border-collapse: collapse;
+}
+td {
+	border: solid 1px;
+	padding: 1em;
+}
+.td-right{
+   width:30%;
+}
+.td-left{
+   width:50%
+}
+
+.project{
+   width:80%;
+}
+
+.all-img{
+   width:100%;
+}
+/* テーブル プロジェクト記事ここまで */
+.Copyright{
+    font-size: 8px;
+    text-align: center;
+}
